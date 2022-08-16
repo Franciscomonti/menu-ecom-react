@@ -7,10 +7,10 @@ const NavBar = () => {
         <nav style={style_navBar}>
             <div style={style_navLogo}><img src={'/img/logo.png'} alt="logo" style={style_navLogo_Img}/></div>
             <ul style={style_nav_blq_btn}>
-                <li style={style_nav_blq_btn_li}><a href="#" style={style_nav_blq_btn_a}>Home</a></li>
-                <li style={style_nav_blq_btn_li}><a href="#" style={style_nav_blq_btn_a}>Products</a></li>
-                <li style={style_nav_blq_btn_li}><a href="#" style={style_nav_blq_btn_a}>About</a></li>
-                <li style={style_nav_blq_btn_li}><a href="#" style={style_nav_blq_btn_a}>Contact</a></li>
+                <li style={style_nav_blq_btn_li}>Home</li>
+                <li style={style_nav_blq_btn_li}>Products</li>
+                <li style={style_nav_blq_btn_li}>About</li>
+                <li style={style_nav_blq_btn_li}>Contact</li>
             </ul>
             <div style={style_nav_cart}>
                 <img src= {'/img/cart vacio.svg'} alt="icon-cart-vacio" style={style_nav_cart_img}/>
@@ -55,14 +55,11 @@ const style_nav_blq_btn = {
 const style_nav_blq_btn_li = {
     listStyle: "none",
     margin: "0px 50px",
-    padding: "5px 10px",                   
-}
-
-const style_nav_blq_btn_a = {
+    padding: "5px 10px",
     fontFamily: "Arial, Helvetica, sans-serif",
     fontSize: "18px",
-    textDecoration: "none",
     color: "black",
+    cursor: "pointer",                   
 }
 
 const style_nav_cart = {
