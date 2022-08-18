@@ -1,5 +1,5 @@
 import React from 'react';
-
+import CartWidget from './cartWidget'
 
 const NavBar = () => {
     return (
@@ -13,7 +13,7 @@ const NavBar = () => {
                 <li style={style_nav_blq_btn_li}>Contact</li>
             </ul>
             <div style={style_nav_cart}>
-                <img src= {'/img/cart vacio.svg'} alt="icon-cart-vacio" style={style_nav_cart_img}/>
+                <CartWidget />
             </div>
         </nav>
             
@@ -32,7 +32,6 @@ const style_navBar = {
     alignItems: "center",
     height: "80px",
     justifyContent: "space-around",
-    position: "fixed",
 }
 
 const style_navLogo = {
@@ -43,7 +42,7 @@ const style_navLogo = {
 const style_navLogo_Img = {
         height: "80px",
         width: "150px",
-        objectFit: "cover",
+        objectFit: "contain",
 }
 
 const style_nav_blq_btn = {
@@ -70,8 +69,3 @@ const style_nav_cart = {
     height: "80px",
 }
 
-const style_nav_cart_img = {
-    width: "30px",
-    height: "30px",
-    cursor: "pointer",
-}
