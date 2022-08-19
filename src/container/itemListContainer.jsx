@@ -1,12 +1,12 @@
 import React from 'react'
 
-function greeting({name}) {
+function itemListContainer({name}) {
     return (
         <h2 style={styleGreeting}>Welcome <span style={styleGreeting_span}>{name}</span> to Easy to SHOP </h2>
     )
 }
 
-export default greeting
+export default itemListContainer
 
 const styleGreeting = {
     margin: "0px",
