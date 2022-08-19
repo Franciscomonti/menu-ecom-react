@@ -7,10 +7,12 @@ const NavBar = () => {
         <nav style={style_navBar}>
             <div style={style_navLogo}><img src={'/img/logo.png'} alt="logo" style={style_navLogo_Img}/></div>
             <ul style={style_nav_blq_btn}>
-                <li style={style_nav_blq_btn_li}>Home</li>
-                <li style={style_nav_blq_btn_li}>Products</li>
-                <li style={style_nav_blq_btn_li}>About</li>
-                <li style={style_nav_blq_btn_li}>Contact</li>
+                <li style={style_nav_blq_btn_li}>All Products</li>
+                <li style={style_nav_blq_btn_li}>Sneakers</li>
+                <li style={style_nav_blq_btn_li}>T-shirt</li>
+                <li style={style_nav_blq_btn_li}>Jumpers</li>
+                <li style={style_nav_blq_btn_li}>Pants</li>
+                <li style={style_nav_blq_btn_li}>shorts</li>
             </ul>
             <div style={style_nav_cart}>
                 <CartWidget />
