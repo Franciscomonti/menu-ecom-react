@@ -12,7 +12,7 @@ const NavBar = () => {
                 <li style={style_nav_blq_btn_li}>T-shirt</li>
                 <li style={style_nav_blq_btn_li}>Jumpers</li>
                 <li style={style_nav_blq_btn_li}>Pants</li>
-                <li style={style_nav_blq_btn_li}>shorts</li>
+                <li style={style_nav_blq_btn_li}>Shorts</li>
             </ul>
             <div style={style_nav_cart}>
                 <CartWidget />
@@ -55,7 +55,7 @@ const style_nav_blq_btn = {
 
 const style_nav_blq_btn_li = {
     listStyle: "none",
-    margin: "0px 50px",
+    margin: "0px 20px",
     padding: "5px 10px",
     fontFamily: "Arial, Helvetica, sans-serif",
     fontSize: "18px",
