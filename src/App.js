@@ -1,13 +1,13 @@
 
 import './App.css';
 import NavBar from './component/nav-bar/navBar';
-import Greeting from './container/greeting';
+import ItemListContainer from './container/itemListContainer';
 
 function App() {
   return (
     <header style={style_header}>
       <NavBar/>,
-      <Greeting name="Sergio"/>
+      <ItemListContainer name="Sergio"/>
     </header>
   );
 }
