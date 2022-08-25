@@ -1,5 +1,6 @@
 import React from 'react'
 import ItemCount from '../component/item-count/itemCount'
+import ItemList from '../component/item/item'
 
 
 function itemListContainer({name}) {
@@ -11,6 +12,7 @@ function itemListContainer({name}) {
         <>
             <h2 style={styleGreeting}>Welcome <span style={styleGreeting_span}>{name}</span> to Easy to SHOP </h2>
             <ItemCount stock={6} initial={1} onAdd={onAdd}/>
+            <ItemList/>
         </>
     )
 }
